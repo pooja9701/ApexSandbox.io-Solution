@@ -1,14 +1,5 @@
 public Boolean ascendingOrder(Integer a, Integer b, Integer c) {
     //code here
-    if(a>=b && a>=c){
-        retur a;
+            return (b >= a) && (c >= b);
 
-    }
-    else if(b>=c){
-        return b;
-
-    }
-    else{
-        return c;
-    }
 }
